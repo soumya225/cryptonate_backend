@@ -81,7 +81,7 @@ const findCampaignDonations = (req, res) => {
         .then(result => res.json(result))
         .catch(err => res.json({message: err}));
 }
-
+ 
 module.exports = {
     getAllCampaigns,
     getFourCampaigns,
